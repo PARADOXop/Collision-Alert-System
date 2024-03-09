@@ -1,0 +1,17 @@
+tensorflow<2.11
+dvc
+pandas
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML
+tqdm
+streamlit
+ensure==1.0.2
+joblib
+types-PyYAML
+scipy
+mlflow==2.2.2
+-e .
