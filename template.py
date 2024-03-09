@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
-package_name = "deepClassifier"
+package_name = "collision_alert"
 
 list_of_files = [
    ".github/workflows/.gitkeep",
