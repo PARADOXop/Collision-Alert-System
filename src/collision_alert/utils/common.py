@@ -1,6 +1,7 @@
 from collision_alert import logger
 import sys
 import os
+import json
 from ensure import ensure_annotations
 import yaml
 from box import ConfigBox
@@ -17,7 +18,7 @@ def create_directories(path_to_dir, verbose = True):
 
 
 @ensure_annotations
-def read_yaml_file(path_to_yaml):
+def read_yaml(path_to_yaml):
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
