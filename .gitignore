@@ -50,6 +50,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 dataset/
+artifacts/
+kaggle.json
 # Translations
 *.mo
 *.pot

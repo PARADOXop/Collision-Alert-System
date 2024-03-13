@@ -1,8 +1,7 @@
 artifacts_root: artifacts
 
 data_ingestion:
-  "root_dir": './dataset'
-  "source_URL": 'https://www.kaggle.com/datasets/ashfakyeafi/road-vehicle-images-dataset'
-  "local_data_file": 'artifacts/data_ingestion/data.zip'
-  "unzip_dir": 'artifacts/data_ingestion'
-  
+  root_dir: './dataset'
+  source_URL: 'https://huggingface.co/datasets/Francesco/vehicles-q0x2v'
+  local_data_file: './artifacts/data_ingestion/archive.zip'
+  unzip_dir: './artifacts/data_ingestion'
