@@ -1,0 +1,21 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: 'artifacts/data_ingestion'
+  source_URL: 'ashfakyeafi/road-vehicle-images-dataset'
+  local_data_file: './artifacts/data_ingestion/archive.zip'
+  unzip_dir: './artifacts/data_ingestion'
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.pt
+  updated_base_model_path: artifacts/prepare_base_model/base_model.pt
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/best.pt
+
+Evaluation:
+  path_of_model: artifacts/training/best.h5
+  training_data: artifacts/data_ingestion/trafic_data
+  mlflow_uri: https://dagshub.com/PARADOXop/DEEPCNNClassifier.mlflow

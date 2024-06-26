@@ -1,0 +1,9 @@
+AUGMENTATION: False
+IMAGE_SIZE: [640, 640, 3] 
+BATCH_SIZE: Auto
+EPOCHS: 100
+CLASSES: 21
+WEIGHTS: 'yolov8m'
+LEARNING_RATE: 0.0004
+optimizer: 'Adamw'
+momentum: 0.9
